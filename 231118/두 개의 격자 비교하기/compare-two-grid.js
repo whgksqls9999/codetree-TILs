@@ -16,7 +16,7 @@ let result = '';
 
 for(let i = 0; i < N; ++i){
     for (let j = 0; j < M; ++j){
-        if(input[i+5].split(' ')[j] != arr1[i][j]){
+        if(input[i+1+N].split(' ')[j] != arr1[i][j]){
             ans[i][j] = 1;
         }
     }
