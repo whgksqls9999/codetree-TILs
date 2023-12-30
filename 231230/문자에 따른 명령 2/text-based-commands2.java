@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
-        int[] dr = new int[]{-1,0,1,0};
+        int[] dr = new int[]{1,0,-1,0};
         int[] dc = new int[]{0,1,0,-1};
         int dir = 0;
         int r = 0, c = 0;
